@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Sözcük"
+        android:id="@+id/sozcuk"
+        android:icon="@drawable/search"
+        />
+    <item android:title="İşaret"
+        android:id="@+id/isaret"
+        android:icon="@drawable/sign_language"
+        />
+    <item android:title="Alfabetik"
+        android:id="@+id/alfabetik"
+        android:icon="@drawable/abc"
+        />
+</menu>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="SORU:"
+           android:textColor="@color/darkred"
+           android:textSize="20sp"
+           android:layout_margin="25dp"/>
+        <ImageView
+            android:id="@+id/soru"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:src="@drawable/library"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/a"
+                    android:layout_width="120dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/red_box"
+                    android:text="A"
+                    android:layout_margin="25dp"
+                    android:textSize="25sp"
+                    android:textColor="@color/darkred"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/c"
+                    android:layout_width="120dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/red_box"
+                    android:text="c"
+                    android:layout_margin="25dp"
+                    android:textSize="25sp"
+                    android:textColor="@color/darkred"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="120dp"
+                    android:layout_height="70dp"
+                    android:id="@+id/b"
+                    android:background="@drawable/red_box"
+                    android:text="b"
+                    android:layout_margin="25dp"
+                    android:textSize="25sp"
+                    android:textColor="@color/darkred"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="120dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/red_box"
+                    android:text="D"
+                    android:id="@+id/d"
+                    android:layout_margin="25dp"
+                    android:textSize="25sp"
+                    android:textColor="@color/darkred"/>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

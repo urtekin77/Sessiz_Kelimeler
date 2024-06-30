@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuFragment.AnaSayfaFragment"
+    android:background="@color/lightseagreen">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/darkred"
+        android:orientation="vertical">
+
+        <androidx.gridlayout.widget.GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="2dp"
+            android:padding="5dp"
+            app:columnCount="3"
+            app:rowCount="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edittext_red"
+                android:orientation="horizontal"
+                android:paddingStart="10dp">
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="3dp"
+                    android:layout_marginStart="9dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/puan" />
+
+                    <TextView
+                        android:id="@+id/puan"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="450"
+                        android:textColor="@color/linen"
+                        android:textSize="25sp" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:background="@color/linen" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="3dp"
+                    android:layout_marginStart="9dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/can" />
+
+                    <TextView
+                        android:id="@+id/canDurumu"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="5"
+                        android:textColor="@color/linen"
+                        android:textSize="25sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.gridlayout.widget.GridLayout>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="61dp"
+        tools:layout_editor_absoluteX="-41dp"
+        tools:layout_editor_absoluteY="-52dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/uniteSiralama"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/tekrarlama"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="20dp"
+        android:padding="23dp"
+        android:src="@drawable/replay"
+        android:background="@drawable/red_box"
+        android:textColor="@color/black" />
+
+
+</FrameLayout>

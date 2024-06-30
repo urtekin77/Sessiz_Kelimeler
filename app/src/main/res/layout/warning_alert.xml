@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5f5c5b"
+    android:id="@+id/dialogForgot"
+    android:padding="20dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <LinearLayout
+        android:id="@+id/dialogBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/red_box"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/forgetTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/red_round"
+            android:drawableStart="@drawable/warning"
+            android:drawablePadding="8dp"
+            android:padding="10dp"
+            android:text="Çıkmak istediğinden emin misin?"
+            android:textColor="@color/linen"
+            android:textSize="17sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="center"
+            android:text="Puan:"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            />
+        <TextView
+            android:id="@+id/forgetText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="center"
+            android:text="-1000"
+            android:textColor="@color/black"
+            android:textSize="80sp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="center"
+            android:text="Lig Puanı:"
+            android:textColor="@color/lightseagreen"
+            android:textSize="15sp"
+            />
+        <TextView
+            android:id="@+id/Ligtext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="center"
+            android:text="-250"
+            android:textColor="@color/lightseagreen"
+            android:textSize="60sp"
+             />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnVazgec"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:background="@drawable/buton"
+                android:text="Vazgeç"
+                android:textColor="@color/linen"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnCik"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="20dp"
+                android:background="@drawable/buton"
+                android:text="Çık"
+                android:textColor="@color/linen"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

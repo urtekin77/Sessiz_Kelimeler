@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.UyeOlmaActivity">
+
+    <ScrollView
+        android:background="@color/lightseagreen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/isim"/>
+
+            <EditText
+                android:id="@+id/kullanici_ad"
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="32dp"
+
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/edittext_background"
+                android:ems="10"
+                android:hint="Kullanıcı Adı"
+                android:inputType="text"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black" />
+
+            <EditText
+                android:id="@+id/singup_email"
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/edittext_background"
+                android:ems="10"
+                android:hint="Email"
+                android:inputType="text"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black" />
+
+
+            <TextView
+                android:id="@+id/singup_hata"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/singup_password"
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/edittext_background"
+                android:ems="10"
+                android:hint="Şifre"
+                android:inputType="textPassword"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black" />
+
+
+            <TextView
+                android:id="@+id/password_error"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/sing_up"
+                style="@android:style/Widget.Button"
+                android:layout_width="200dp"
+                android:layout_height="58dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="32dp"
+                android:background="@drawable/buton"
+                android:text="ÜYE OL"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

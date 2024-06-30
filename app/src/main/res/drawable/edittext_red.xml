@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle"> <!-- rectangle dikdörtgen şeklinde bir drawable tanımlar -->
+            <solid android:color="@color/darkred"/> <!-- buton rengini turuncu yapar -->
+            <corners android:radius="50dp"/> <!-- butonun köşelerini 50 dp yuvarlıklık yapar -->
+        </shape>
+    </item>
+</selector>

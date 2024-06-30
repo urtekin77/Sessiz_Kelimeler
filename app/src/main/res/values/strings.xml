@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Sessiz Kelimeler</string>
+    <string name="uygulama_hakkinda">
+"Sessiz Kelimeler" uygulaması, işitme engelli bireylerin toplumsal hayata katılımını kolaylaştırmak ve iletişim engellerini aşmak amacıyla geliştirilmiş bir mobil uygulamadır. Firestore veri tabanı kullanılarak geliştirilen uygulama, güncel Türk İşaret Dili Sözlüğü ile entegre edilmiştir. Bu sayede kullanıcılar, işaret dilini öğrenirken doğru ve güncel bilgilere hızlı ve güvenilir bir şekilde erişebilmektedir.    </string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

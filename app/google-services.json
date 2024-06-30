@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "696709454297",
+    "project_id": "tidtanimadatabase",
+    "storage_bucket": "tidtanimadatabase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:696709454297:android:e97c79caf3c6fc033621c8",
+        "android_client_info": {
+          "package_name": "com.example.tidtanima"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRnQr94MLbL8URmhbq6kisb2-yZMLuxR0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Ana Sayfa"
+        android:icon="@drawable/ana_sayfa"
+        android:id="@+id/anaSayfa"/>
+    <item android:title="Sözlük"
+        android:icon="@drawable/library"
+        android:id="@+id/sozluk"/>
+    <item android:title="Sıralama"
+        android:icon="@drawable/liste"
+        android:id="@+id/siralama"/>
+    <item android:title="Profil"
+        android:icon="@drawable/profil"
+        android:id="@+id/profil"/>
+</menu>
