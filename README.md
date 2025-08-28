@@ -56,8 +56,8 @@ Sessiz Kelimeler, Türk İşaret Dili öğrenmek isteyen bireyler için gelişti
 
 ### Ana Menü ve Giriş Ekranları
 <div align="center">
-  <img src="https://github.com/urtekin77/Sessiz_Kelimeler/blob/master/images/beklemeEkran.png" alt="Bekleme Ekranı" width="150"/>
-  <img src="https://github.com/urtekin77/Sessiz_Kelimeler/blob/master/images/uyeKayıt.png" alt="Üyelik Ekranı" width="150"/>
+  <img src="https://github.com/urtekin77/Sessiz_Kelimeler/blob/master/images/beklemeEkrani.png" alt="Bekleme Ekranı" width="150"/>
+  <img src="https://github.com/urtekin77/Sessiz_Kelimeler/blob/master/images/uyeKayit.png" alt="Üyelik Ekranı" width="150"/>
   <img src="https://github.com/urtekin77/Sessiz_Kelimeler/blob/master/images/girisYap.png" alt="Giriş Ekranı" width="150"/>
   <img src="https://github.com/urtekin77/Sessiz_Kelimeler/blob/master/images/sifreUnutma.png" alt="Şifre Unutma" width="150"/>
 </div>
@@ -71,14 +71,16 @@ Sessiz Kelimeler, Türk İşaret Dili öğrenmek isteyen bireyler için gelişti
 </div>
 
 ### Test ve Quiz Ekranları
+<div>
   <img src="https://github.com/urtekin77/Sessiz_Kelimeler/blob/master/images/quizEkran.png" alt="Quiz Ekranı" width="150"/>
   <img src="https://github.com/urtekin77/Sessiz_Kelimeler/blob/master/images/genelTekrar1.png" alt="Quiz Ekranı" width="150"/>
   <img src="https://github.com/urtekin77/Sessiz_Kelimeler/blob/master/images/canBitmesi.png" alt="Can Bitmesi Durumu" width="150"/>
   <img src="https://github.com/urtekin77/Sessiz_Kelimeler/blob/master/images/score.png" alt="Skor Ekranı" width="150"/>
 </div>
+
 ### Sözlük ve Arama
   <img src="https://github.com/urtekin77/Sessiz_Kelimeler/blob/master/images/aramaSayfasiOrnek.png" alt="Arama Sayfası" width="150"/>
-  <img src="https://github.com/urtekin77/Sessiz_Kelimeler/blob/master/images/alfabeSorgusu.png" alt="Alfabe ile Sorgu" width="150"/>
+  <img src="https://github.com/urtekin77/Sessiz_Kelimeler/blob/master/images/alfabeSorgu.png" alt="Alfabe ile Sorgu" width="150"/>
   <img src="https://github.com/urtekin77/Sessiz_Kelimeler/blob/master/images/isaretSorgu.png" alt="İşareler ile Arama" width="150"/>
 
 </div>
