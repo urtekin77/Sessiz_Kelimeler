@@ -79,10 +79,10 @@ Sessiz Kelimeler, Türk İşaret Dili öğrenmek isteyen bireyler için gelişti
 </div>
 
 ### Sözlük ve Arama
+<div>
   <img src="https://github.com/urtekin77/Sessiz_Kelimeler/blob/master/images/aramaSayfasiOrnek.png" alt="Arama Sayfası" width="150"/>
   <img src="https://github.com/urtekin77/Sessiz_Kelimeler/blob/master/images/alfabeSorgu.png" alt="Alfabe ile Sorgu" width="150"/>
   <img src="https://github.com/urtekin77/Sessiz_Kelimeler/blob/master/images/isaretSorgu.png" alt="İşareler ile Arama" width="150"/>
-
 </div>
 
 ### Profil ve Lig Sistemi
