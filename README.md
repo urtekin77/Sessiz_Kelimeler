@@ -71,7 +71,7 @@ Sessiz Kelimeler, Türk İşaret Dili öğrenmek isteyen bireyler için gelişti
 </div>
 
 ### Test ve Quiz Ekranları
-<div>
+<div align="center">
   <img src="https://github.com/urtekin77/Sessiz_Kelimeler/blob/master/images/quizEkran.png" alt="Quiz Ekranı" width="150"/>
   <img src="https://github.com/urtekin77/Sessiz_Kelimeler/blob/master/images/genelTekrar1.png" alt="Quiz Ekranı" width="150"/>
   <img src="https://github.com/urtekin77/Sessiz_Kelimeler/blob/master/images/canBitmesi.png" alt="Can Bitmesi Durumu" width="150"/>
@@ -79,7 +79,7 @@ Sessiz Kelimeler, Türk İşaret Dili öğrenmek isteyen bireyler için gelişti
 </div>
 
 ### Sözlük ve Arama
-<div>
+<div align="center">
   <img src="https://github.com/urtekin77/Sessiz_Kelimeler/blob/master/images/aramaSayfasiOrnek.png" alt="Arama Sayfası" width="150"/>
   <img src="https://github.com/urtekin77/Sessiz_Kelimeler/blob/master/images/alfabeSorgu.png" alt="Alfabe ile Sorgu" width="150"/>
   <img src="https://github.com/urtekin77/Sessiz_Kelimeler/blob/master/images/isaretSorgu.png" alt="İşareler ile Arama" width="150"/>
